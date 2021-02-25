@@ -19,7 +19,7 @@ public class FAVOMain extends Application{
 
     public void start(Stage primaryStage){
         try{
-            URL fxmlURL = Paths.get("D:\\Work Space\\FAVOSolver_Maven\\FAVOSolver\\favo_main.fxml").toUri().toURL();
+            URL fxmlURL = Paths.get("../favo_main.fxml").toUri().toURL();
             Parent root = FXMLLoader.load(fxmlURL);
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);

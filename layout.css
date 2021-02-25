@@ -1,0 +1,6 @@
+.d{
+    width:200px;
+    height:174px;
+    background:#f80;
+    -webkit-clip-path:polygon(25% 0%, 75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+  }

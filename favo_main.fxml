@@ -381,7 +381,7 @@
       </HBox>
       <AnchorPane layoutX="454.0" layoutY="47.0" prefHeight="418.0" prefWidth="251.0" style="-fx-background-color: cfcccc;">
          <children>
-            <Label layoutX="14.0" layoutY="14.0" text="Control Plate">
+            <Label layoutX="14.0" layoutY="14.0" text="Control Panel">
                <font>
                   <Font name="Calibri Bold" size="19.0" />
                </font>

@@ -1,5 +1,7 @@
 # FAVOSolver
 
+![Imgur](https://imgur.com/xga7Sil.jpg)
+
 ### Introduction
 
 The project is for providing better solution for the mobile and Steam game "Favo!".
@@ -20,3 +22,6 @@ The project is for providing better solution for the mobile and Steam game "Favo
    - if the brick is merge brick, type the color with six 0, and append 'm' at the end
 2. After three blocks were input, the program would tell the chosen position with letter 'E' specified on the board
 3. Choose if you want to take the chosen step, if not, you could input the coordinate yourself
+4. You could always change the color or number of any blocks on the board
+   1. Color: left click the block
+   2. Number: right click the block, fill in the number

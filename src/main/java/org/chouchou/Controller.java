@@ -301,7 +301,7 @@ public class Controller extends FAVOMain {
 
     @FXML
     void importFile(ActionEvent event) {
-        Path p = Paths.get("data\\saved");
+        Path p = Paths.get("data/saved");
         if(!Files.exists(p)){
             try{
                 Files.createDirectories(p);
@@ -313,7 +313,7 @@ public class Controller extends FAVOMain {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Select the board data");
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("TXT", "*.txt"));
-        fileChooser.setInitialDirectory(new File("data\\saved"));
+        fileChooser.setInitialDirectory(new File("data/saved"));
         File file = fileChooser.showOpenDialog(stage);
         // Read in files. Inclusive of 'last.txt' and 'lastmove.txt'
         for (int i = 0; i < 7; i++) {
@@ -362,7 +362,7 @@ public class Controller extends FAVOMain {
     void save(ActionEvent event) {
         Stage stage = (Stage) ap.getScene().getWindow();
         FileChooser chooser = new FileChooser();
-        chooser.setInitialDirectory(new File("data\\saved"));
+        chooser.setInitialDirectory(new File("data/saved"));
         chooser.setTitle("Save Board");
         chooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("TXT", "*.txt"));
 
